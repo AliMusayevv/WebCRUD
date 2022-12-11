@@ -1,0 +1,100 @@
+﻿/*.mydatagrid {
+    width: 70%;
+    border: solid 3px black;
+    min-width: 90%;
+    position: relative;
+    right: 200px;
+    bottom: 200px;
+}
+
+
+.header {
+    background-color: #000;
+    font-family: Arial;
+    color: White;
+    height: 25px;
+    text-align: center;
+    font-size: 25px;
+    border: solid 2px white;
+}
+
+.rows {
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 25px;
+    color: #000;
+    min-height: 25px;
+    text-align: left;
+}
+
+    .rows:hover {
+        background-color: #5badff;
+        color: #fff;
+    }
+
+.mydatagrid a {
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.ee{
+    width:100%;
+    grid-row:auto;
+   
+}*/
+
+body {
+    width: 100%;
+    margin: 5px;
+    background-color:#6e7bd9;
+}
+
+.table-condensed tr th {
+    border: 3px solid #000000;
+    color: #000000;
+    font:bold;
+    background-color: #808080;
+}
+
+.table-condensed, .table-condensed tr td {
+    border: 3px solid #000;
+    font: bold;
+}
+
+tr:nth-child(even) {
+    background: #0094ff
+}
+
+tr:nth-child(odd) {
+    background: #00ff21;
+}
+#GrdResults{
+    position:absolute;
+    margin-top:5%;
+}
+.del {
+    background-color: white;
+    width: 0%;
+}
+
+.cancel {
+  background-color:red;
+}
+
+    .cancel:hover {
+        background-color:#0094ff;
+    }
+
+.edit {
+    background-color: white;
+    width: 0%;
+}
+.update {
+    background-color: #0094ff;
+}
+
+    .update:hover {
+        background-color:red;
+    }
